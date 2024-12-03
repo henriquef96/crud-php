@@ -19,7 +19,7 @@ require 'tarefa_controller.php';
 	<script>
 		function editar(id) {
 			let form = document.createElement('form');
-			form.action = '#';
+			form.action = '#act';
 			form.method = 'post'
 
 			let input = document.createElement('input')
