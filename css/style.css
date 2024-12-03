@@ -1,0 +1,25 @@
+li.list-group-item.active {
+	background-color: #f3f3f3;
+	border: transparent;
+	border: 1px solid #009933;
+}
+
+li a {
+	color: #212529;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #009933;
+}
+
+#toast{
+	top: 10%;
+	z-index: 100;
+}
+
+@media (max-width: 768px) {
+	.mq-5 {
+		margin-bottom: 25px;
+	}
+}
