@@ -1,6 +1,6 @@
 <?php
 $acao = 'recuperar';
-require './config/tarefa_controller.php';
+require '../app_lista_tarefas_public/config/tarefa_controller.php';
 ?>
 
 <!DOCTYPE html>
