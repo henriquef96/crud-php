@@ -1,0 +1,52 @@
+.bg-app{
+	background-color: #f3f3f3;
+}
+
+li.list-group-item.active {
+	background-color: #f3f3f3;
+	border: 1px solid #157347;
+	border-left: 5px solid #157347;
+}
+
+li a {
+	color: #212529;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #157347;
+}
+
+.toast-position {
+	position: fixed;
+	top: 65px;
+	right: 5px;
+	z-index: 1000;
+}
+
+.toast-success {
+	background-color: #D1E7DD;
+	color: #0A3622;
+	border: 1px solid #A3CFBB;
+}
+
+.toast-danger {
+	background-color: #F8D7DA;
+	color: #58151C;
+	border: 1px solid #F1AEB5;
+}
+
+.bg-col{
+	background-color: rgb(225, 225, 225);
+}
+
+#input{
+	background-color: rgb(200, 200, 200);
+	border: none;
+}
+
+@media (max-width: 768px) {
+	.mq-5 {
+		margin-bottom: 25px;
+	}
+}
